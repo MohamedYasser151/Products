@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+.navbar{
+    box-shadow: 0  0 8px #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background: #fff;
+}
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+ 
+}
+
+
+
+
+
+
+#navmenu {
+    color: #2c2c2c;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+   
+}
+#navmenu:hover{
+    color: #EE1c47;
+    
+}
+
+.nav-icon i{
+    margin-right:20px ;
+    color: #2c2c2c;
+    font-size: 25px;
+    
+    transition: 0.2s;
+    
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #EE1c47;
+   
+}
+
+/* card */
+.card{
+    box-shadow: 0 0 8px #e52b8c;
+}
+.card h1{
+    background: linear-gradient(to left,#cf1919,#fc00a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+.price{
+    display: flex;
+   
+    justify-content: center;
+}
+.price {
+    font-weight: bold;
+}
+.price p{
+    margin-left: 3px;
+    
+    color: #FFD700;
+}
+.image{
+    height: 200px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.buyNow button{
+    border-radius:10px ;
+    border: none;
+    background: #e52b8c;
+    width: 90%;
+    color: #fff;
+    transition: 0.3s;
+    
+}
+.buyNow button:hover{
+   transform: scale(1.1);
+   
+}
+.container{
+    margin-top: 200px;
+}
+
+
+/* footer */
+.footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 8px #000;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.footer img{
+    width:50px ;
+    cursor: pointer;
+}
+.icon{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.footer .fa-facebook,
+.fa-instagram,
+.fa-twitter {
+    transition: 0.3s;
+    margin-left: 40px;
+ cursor: pointer;
+
+}
+.fa-facebook{
+    color: #1877F2;
+}
+.fa-twitter{
+    color: #1DA1F2    ;
+}
+.fa-instagram{
+    color: #e4405f    ;
+}
+.footer .fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover{
+    transform: scale(1.2);
+}
